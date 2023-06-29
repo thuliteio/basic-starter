@@ -10,5 +10,5 @@ npm create hyas@latest -- --template basic-starter
 ```
 
 Or:
-- [Open in Gitpod](gitpod.io/#https://github.com/gethyas/basic-starter)
+- [Open in Gitpod](https://gitpod.io/#https://github.com/gethyas/basic-starter)
 - [Create a new repository](https://github.com/gethyas/basic-starter/generate)
