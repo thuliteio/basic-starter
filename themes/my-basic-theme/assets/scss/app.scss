@@ -1,0 +1,11 @@
+/** Import modern-css-reset */
+@import "modern-css-reset/src/reset";
+
+:root {
+  --main-bg-color: yellowgreen;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  text-align: center;
+}
