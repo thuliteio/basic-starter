@@ -31,7 +31,6 @@ module.exports = {
         'blur-up',
         'lazyloaded',
         ...whitelister([
-          './assets/scss/**/*.css',
           './assets/scss/**/*.scss',
         ]),
       ],

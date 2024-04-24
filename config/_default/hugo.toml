@@ -1,5 +1,5 @@
 title = "Hyas"
-baseurl = "/"
+baseurl = "http://localhost/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -12,13 +12,10 @@ paginate = 7
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
-copyRight = "Copyright (c) 2023 Hyas"
+copyRight = "Copyright (c) 2020-2024 Hyas"
 
 [build.buildStats]
   enable = true
-
-[social]
-  twitter = "gethyas"
 
 [outputs]
   home = ["HTML"]
@@ -47,18 +44,18 @@ copyRight = "Copyright (c) 2023 Hyas"
   includeNewer = true
   toLower = false
     [[related.indices]]
-    name = "categories"
-    weight = 100
+      name = "categories"
+      weight = 100
     [[related.indices]]
-    name = "tags"
-    weight = 80
+      name = "tags"
+      weight = 80
     [[related.indices]]
-    name = "date"
-    weight = 10
+      name = "date"
+      weight = 10
 
 [imaging]
-  anchor = "Smart"
+  anchor = "Center"
   bgColor = "#ffffff"
   hint = "photo"
-  quality = 75
-  resampleFilter = "Box"
+  quality = 85
+  resampleFilter = "Lanczos"
