@@ -1,4 +1,5 @@
 # basic-starter
+
 Official basic starter
 
 ## Getting started
@@ -6,9 +7,10 @@ Official basic starter
 Use the CLI:
 
 ```bash
-npm create hyas@latest -- --template basic-starter
+npm create thulite@latest -- --template basic-starter
 ```
 
 Or:
-- [Open in Gitpod](https://gitpod.io/#https://github.com/gethyas/basic-starter)
-- [Create a new repository](https://github.com/gethyas/basic-starter/generate)
+
+- [Open in Gitpod](https://gitpod.io/#https://github.com/thuliteio/basic-starter)
+- [Create a new repository](https://github.com/github.com/thuliteio/generate)
