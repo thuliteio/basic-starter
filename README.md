@@ -7,10 +7,19 @@ Official basic starter
 Use the CLI:
 
 ```bash
-npm create thulite@latest -- --template basic-starter
+npm create thulite@latest -- --template basic
 ```
 
-Or:
+With recommended integrations  (SEO and Images):
 
-- [Open in Gitpod](https://gitpod.io/#https://github.com/thuliteio/basic-starter)
-- [Create a new repository](https://github.com/github.com/thuliteio/generate)
+```bash
+npm create thulite@latest -- --template basic-rec
+```
+
+## Usage
+
+For detailed instructions, refer to our [documentation](https://docs.thulite.io/getting-started/).
+
+## Support
+
+Need assistance? Visit [Thulite Discussions](https://github.com/orgs/thuliteio/discussions) for help.
