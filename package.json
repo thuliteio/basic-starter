@@ -12,11 +12,11 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "thulite": "^2.6.3"
+    "thulite": "^2.6.4"
   },
   "devDependencies": {
-    "prettier": "^3.6.2",
-    "vite": "^7.0.6"
+    "prettier": "^3.8.1",
+    "vite": "^7.3.1"
   },
   "engines": {
     "node": ">=20.11.0"
