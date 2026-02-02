@@ -1,7 +1,7 @@
 {
-  "name": "basic-starter",
+  "name": "basic-starter-rec",
   "version": "0.0.0",
-  "description": "Thulite basic starter",
+  "description": "Thulite basic starter with recommended integrations",
   "author": "Thulite",
   "license": "MIT",
   "scripts": {
@@ -12,6 +12,8 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
+    "@thulite/images": "^3.3.4",
+    "@thulite/seo": "^2.4.3",
     "thulite": "^2.6.4"
   },
   "devDependencies": {
@@ -19,6 +21,6 @@
     "vite": "^7.3.1"
   },
   "engines": {
-    "node": ">=20.11.0"
+    "node": ">=24.13.0"
   }
 }

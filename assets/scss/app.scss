@@ -4,5 +4,8 @@
 /** Import modern-css-reset */
 @import "modern-css-reset/src/reset";
 
+// Add additional custom code here
+@import "components/images";
+
 // Include custom styles
 @import "common/custom";
