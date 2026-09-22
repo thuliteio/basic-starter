@@ -27,15 +27,20 @@ images = ["cover.png"]
 
 # Inline SVG (@thulite/inline-svg)
 [inline_svg]
-  iconSetDir = "tabler-icons" # "tabler-icons" (default)
+  iconSetDir = "tabler-icons" # "tabler-icons" (default) or "lucide" (for example)
+  iconSetVariant = "outline" # outline (default) or filled
 
 # SEO (@thulite/seo)
 [seo]
   [seo.title]
-    separator = "" # "|" (default)
-    suffix = "" # title hugo.toml (default)
+    separator = "—"
+    suffix = ""
   [seo.description]
     summaryFallback = "" # "" (default)
+  [seo.description.length]
+    errorlevel = "warning" # warning (default), error, or ignore
+    min = 110
+    max = 160
   [seo.favicons]
     icon = "favicon.png" # favicon.png (default)
     svgIcon = "favicon.svg" # favicon.svg (default)
@@ -47,5 +52,5 @@ images = ["cover.png"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
-    blogPosting = ["blog"] # BlogPosting sections
+    blogPosting = [] # BlogPosting sections
     product = [] # Product sections
