@@ -1,11 +1,11 @@
 // Include any default variable overrides here
-@import "common/variables-custom";
+@use "common/variables-custom";
 
-/** Import modern-css-reset */
-@import "modern-css-reset/src/reset";
+// Load the shared CSS reset
+@use "reset";
 
 // Add additional custom code here
-@import "components/images";
+@use "components/images";
 
 // Include custom styles
-@import "common/custom";
+@use "common/custom";

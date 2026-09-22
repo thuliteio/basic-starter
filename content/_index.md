@@ -1,5 +1,5 @@
 ---
-title : "My Thulite site"
+title: "My Thulite site"
 description: "Congrats on setting up a new Thulite project!"
 lead: "Congrats on setting up a new Thulite project!"
 date: 2020-04-17T12:18:10+00:00

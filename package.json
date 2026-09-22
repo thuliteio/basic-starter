@@ -7,6 +7,7 @@
   "scripts": {
     "create": "hugo new",
     "dev": "hugo server --disableFastRender --noHTTPCache",
+    "portless": "portless run thulite-portless",
     "format": "prettier **/** -w -c",
     "build": "hugo --minify --gc",
     "preview": "vite preview --outDir public"
@@ -14,15 +15,16 @@
   "dependencies": {
     "@thulite/images": "^3.3.4",
     "@thulite/seo": "^2.4.3",
-    "thulite": "^2.6.5"
+    "thulite": "^3.0.1"
   },
   "overrides": {
-      "minimatch": "^10.2.2",
-      "glob": "^13.0.6"
+    "minimatch": "^10.2.6",
+    "glob": "^13.0.6"
   },
   "devDependencies": {
-    "prettier": "^3.8.1",
-    "vite": "^7.3.1"
+    "portless": "^0.15.6",
+    "prettier": "^3.9.8",
+    "vite": "^8.3.0"
   },
   "engines": {
     "node": ">=24.13.0"
