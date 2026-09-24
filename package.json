@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@thulite/images": "^3.3.4",
-    "@thulite/seo": "^2.4.3",
-    "thulite": "^3.0.1"
+    "@thulite/seo": "^2.4.4",
+    "thulite": "^3.0.2"
   },
   "overrides": {
     "minimatch": "^10.2.6",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "portless": "^0.15.6",
     "prettier": "^3.9.8",
-    "vite": "^8.3.0"
+    "vite": "^8.3.1"
   },
   "engines": {
     "node": ">=24.13.0"
