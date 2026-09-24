@@ -1,6 +1,6 @@
 ---
 title: "My Thulite site"
-description: "Congrats on setting up a new Thulite project!"
+description: "A welcoming Thulite starter site showcasing a clean Hugo setup, responsive design, and a simple foundation for building your own modern website."
 lead: "Congrats on setting up a new Thulite project!"
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
